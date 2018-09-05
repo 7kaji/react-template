@@ -13,13 +13,20 @@ module.exports = [
       filename: 'bundle.js',
     },
     module: {
-      rules: [{
-        exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['react', 'es2015'],
+      rules: [
+        {
+          exclude: /node_modules/,
+          use: [
+            {
+              loader: 'babel-loader',
+              options: {
+                presets: ['react', 'es2015'],
+                plugins: ['transform-class-properties'],
+              },
+            },
+          ],
         },
-      }],
+      ],
     },
     resolve: {
       extensions: ['.js', '.jsx'],

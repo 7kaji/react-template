@@ -1,4 +1,4 @@
-const title = (state = 'react_template', action) => {
+const title = (state = 'react-redux-template', action) => {
   switch (action.type) {
     default:
       return state;
