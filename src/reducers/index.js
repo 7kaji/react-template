@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import number from './number';
-import title from './title';
+import number from './Number';
+import title from './Title';
 
 // combineReducer で 1つの Reducer にまとめる
 export default combineReducers({
