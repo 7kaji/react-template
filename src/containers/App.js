@@ -3,7 +3,7 @@ import App from '../components/App';
 import { minus, plus } from '../actions';
 
 const mapStateToProps = (state) => {
-  const n = Math.sign(state.number) === -1 ? 0 : state.number;
+  const n = state.number < 0 ? 0 : state.number;
   return (
     {
       number: state.number,
