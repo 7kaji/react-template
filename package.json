@@ -19,7 +19,7 @@
     "geolib": "^2.0.24",
     "import-glob-loader": "^1.1.0",
     "lodash": "^4.17.15",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.6.1",
     "query-string": "^6.1.0",
     "react": "^16.4.0",
