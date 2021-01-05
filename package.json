@@ -9,7 +9,7 @@
     "start": "./node_modules/.bin/webpack-dev-server --mode development"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "babel-eslint": "^8.2.5",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
