@@ -18,7 +18,7 @@
     "css-loader": "^0.28.11",
     "geolib": "^2.0.24",
     "import-glob-loader": "^1.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "node-sass": "^4.9.0",
     "prop-types": "^15.6.1",
     "query-string": "^6.1.0",
